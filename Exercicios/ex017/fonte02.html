@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:"billy" ;
+            src: url("fonts/BillyBella.otf")format("opentype");
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            -opentype(otf)
+            -truetype(ttf)
+            -embeddeb-opentype
+            -truetype-aat(Apple advanced typographi)
+            -sgv
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: billy, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi veniam ipsa possimus dolor voluptate. Maxime placeat architecto cumque ad hic culpa, itaque, voluptatem odio harum quidem quis nostrum velit non?</p>
+</body>
+</html>
