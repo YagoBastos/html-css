@@ -12,6 +12,7 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
         .coluna-estreita{
             width: 50px;
@@ -33,9 +34,17 @@
             border: 1px solid black;
             padding: 10px;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(54, 54, 54);
+        }
         thead, tfoot{
             background-color: rgb(54, 54, 54);
             color: white;
+        }
+        tbody > tr:nth-child(even){/*even=par / odd=impar*/
+            background-color: lightgrey;
         }
         tfoot > tr > th{
             text-align: left;
@@ -181,5 +190,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni delectus, at saepe culpa corrupti molestias vitae quis quibusdam aliquam dolorum rem fuga, natus, cum possimus? Modi ipsum quia illo dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil molestias sapiente dolorem expedita at voluptates! Sint suscipit voluptatem quis earum? Exercitationem ullam fugit consequuntur tempora sint vero? Cum, velit adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam quo hic officiis ut cupiditate, magnam excepturi cum ab, non quasi. Aliquam accusantium cum nostrum iure laboriosam ratione quibusdam possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid, neque quam vel officiis vitae commodi quidem minus dolorum quos, sint libero dolor et ipsum debitis voluptatum. Libero, atque perferendis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni delectus, at saepe culpa corrupti molestias vitae quis quibusdam aliquam dolorum rem fuga, natus, cum possimus? Modi ipsum quia illo dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil molestias sapiente dolorem expedita at voluptates! Sint suscipit voluptatem quis earum? Exercitationem ullam fugit consequuntur tempora sint vero? Cum, velit adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam quo hic officiis ut cupiditate, magnam excepturi cum ab, non quasi. Aliquam accusantium cum nostrum iure laboriosam ratione quibusdam possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid, neque quam vel officiis vitae commodi quidem minus dolorum quos, sint libero dolor et ipsum debitis voluptatum. Libero, atque perferendis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni delectus, at saepe culpa corrupti molestias vitae quis quibusdam aliquam dolorum rem fuga, natus, cum possimus? Modi ipsum quia illo dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil molestias sapiente dolorem expedita at voluptates! Sint suscipit voluptatem quis earum? Exercitationem ullam fugit consequuntur tempora sint vero? Cum, velit adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam quo hic officiis ut cupiditate, magnam excepturi cum ab, non quasi. Aliquam accusantium cum nostrum iure laboriosam ratione quibusdam possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid, neque quam vel officiis vitae commodi quidem minus dolorum quos, sint libero dolor et ipsum debitis voluptatum. Libero, atque perferendis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni delectus, at saepe culpa corrupti molestias vitae quis quibusdam aliquam dolorum rem fuga, natus, cum possimus? Modi ipsum quia illo dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil molestias sapiente dolorem expedita at voluptates! Sint suscipit voluptatem quis earum? Exercitationem ullam fugit consequuntur tempora sint vero? Cum, velit adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam quo hic officiis ut cupiditate, magnam excepturi cum ab, non quasi. Aliquam accusantium cum nostrum iure laboriosam ratione quibusdam possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid, neque quam vel officiis vitae commodi quidem minus dolorum quos, sint libero dolor et ipsum debitis voluptatum. Libero, atque perferendis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni delectus, at saepe culpa corrupti molestias vitae quis quibusdam aliquam dolorum rem fuga, natus, cum possimus? Modi ipsum quia illo dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil molestias sapiente dolorem expedita at voluptates! Sint suscipit voluptatem quis earum? Exercitationem ullam fugit consequuntur tempora sint vero? Cum, velit adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam quo hic officiis ut cupiditate, magnam excepturi cum ab, non quasi. Aliquam accusantium cum nostrum iure laboriosam ratione quibusdam possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid, neque quam vel officiis vitae commodi quidem minus dolorum quos, sint libero dolor et ipsum debitis voluptatum. Libero, atque perferendis.</p>
 </body>
 </html>
